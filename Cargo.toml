@@ -1,0 +1,12 @@
+[package]
+name = "sdl-rs"
+version = "0.1.0"
+authors = ["mbh95 <matthewbh95@gmail.com>"]
+
+[dependencies]
+num-complex = "0.1.43"
+
+[dependencies.sdl2]
+version = "0.31"
+default-features = false
+features = ["gfx", "image"]
